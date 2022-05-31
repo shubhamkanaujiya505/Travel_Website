@@ -16,3 +16,27 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+.navitem{
+    color: white;
+}
+.header .logo,
+.header .navbar a{
+    color: white;
+}
+.navbar{
+    border: 3px solid white;   
+}
+.header .navbar .logo{
+    float: left;
+}
+.header .navbar .navitems .navitem{
+   display: inline-block;
+   float: right;
+}
+
+.navbar::after{
+    content: "";
+    display: block;
+    clear: both;
+}
